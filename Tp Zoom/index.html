@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" type="module" defer></script>
+    <title>Zoom</title>
+</head>
+<body>
+<article class="product js-product">
+    <div class="product_images js-images">
+        <a target="_blank" href="img/bateau.jpg" data-medium="img/bateau_medium.jpg" class="active">
+            <img src="img/bateau_small.jpg" alt="">
+        </a>
+        <a target="_blank" href="img/horse.jpg" data-medium="img/horse_medium.jpg">
+            <img src="img/horse_small.jpg" alt="">
+        </a>
+        <a target="_blank" href="img/scribe.jpg" data-medium="img/scribe_medium.jpg">
+            <img src="img/scribe_small.jpg" alt="">
+        </a>
+        <a target="_blank" href="img/whip.jpg" data-medium="img/whip_medium.jpg">
+            <img src="img/whip_small.jpg" alt="">
+        </a>
+        <a target="_blank" href="img/bateau_landscape.jpg" data-medium="img/bateau_landscape_medium.jpg">
+            <img src="img/bateau_landscape_small.jpg" alt="">
+        </a>
+    </div>
+    <div class="product_image">
+        <img src="img/bateau_medium.jpg" alt="" class="js-image-medium">
+        <div class="product_magnifier js-magnifier"></div>
+    </div>
+    <div class="product_info">
+        <h1>Photos <a href="https://www.instagram.com/la_mini_taverne/" target="_blank">@la_mini_taverne</a></h1>
+        <p>
+            Peintre sur figurines 🖌️<br/>
+            MP pour les tarifs de commissions<br/>
+            Photos par <a href="https://www.instagram.com/la_taverne_aux_images/" target="_blank">@la_taverne_aux_images</a>
+        </p>
+        <div class="product_zoom js-zoom">
+            <img src="data:," alt="" class="js-image-large">
+        </div>
+    </div>
+</article>
+</body>
+</html>

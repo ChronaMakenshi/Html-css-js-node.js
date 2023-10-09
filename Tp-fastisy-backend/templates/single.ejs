@@ -1,0 +1,11 @@
+<%- include('./shared/header.ejs', {title: post.title}) %>
+
+<div class="container">
+    <h1 class="my-5"><%= post.title %></h1>
+    <p>
+        <%= post.content %>
+    </p>
+</div>
+
+
+<%- include('./shared/footer.ejs') %>

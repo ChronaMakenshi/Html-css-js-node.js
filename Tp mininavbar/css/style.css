@@ -1,0 +1,109 @@
+:root {
+    --topbar-color: #2CC09C;
+    --topbar-background: #212529;
+}
+
+.topbar {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    background: var(--topbar-background);
+    color: #ffffff;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topbar ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.topbar li {
+    padding: 0 8px;
+}
+
+.topbar li, .topbar a {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    transition: color .3ms;
+}
+
+.topbar svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.topbar .topbar__lang {
+    margin-left: auto;
+}
+
+.topbar__infos {
+    background-color: var(--topbar-color);
+}
+
+.topbar__links svg {
+    color: var(--topbar-color);
+}
+
+.topbar__links a:hover {
+    color: var(--topbar-color);
+}
+
+.topbar__lang a:after {
+    content: '';
+    display: inline-block;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 6px solid #ffffff;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+}
+
+.topbar__container {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 720px){
+    .topbar {
+        font-size: 14px;
+        background: linear-gradient(to right, var(--topbar-color), var(--topbar-color) 50%, var(--topbar-background) 50.01%, var(--topbar-background));
+    }
+
+    .topbar__container{
+        display: flex;
+        justify-content: space-between;
+        background: var(--topbar-background);
+    }
+
+    .topbar li, .topbar a {
+        height: 55px;
+    }
+
+    .topbar__infos li:last-child {
+        background: var(--topbar-background);
+        padding-left: 0;
+    }
+
+    .topbar__infos li:last-child::before {
+        content: '';
+        display: inline-block;
+        border-right: solid 30px transparent;
+        border-bottom: solid 55px var(--topbar-color);
+    }
+
+    .topbar__infos li:last-child  svg{
+        color: var(--topbar-color);
+    }
+
+
+}
+

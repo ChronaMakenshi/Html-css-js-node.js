@@ -1,0 +1,25 @@
+{
+  "name": "tp-fastisy-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cookie": "^9.1.0",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/secure-session": "^7.1.0",
+    "@fastify/static": "^6.11.2",
+    "@fastify/view": "^8.2.0",
+    "@phc/argon2": "^1.0.9",
+    "better-sqlite3": "^8.6.0",
+    "ejs": "^3.1.9",
+    "fastify": "^4.23.2"
+  }
+}

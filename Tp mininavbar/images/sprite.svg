@@ -1,0 +1,19 @@
+<svg width="0" height="0" class="hidden">
+  <symbol viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg" id="key">
+    <path d="M12.296 5.625l2.944-2.943M16.922 1L15.24 2.682 16.922 1zM8.84 9.082a4.626 4.626 0 1 1-6.542 6.541 4.625 4.625 0 0 1 6.54-6.54l.002-.001zm0 0l3.456-3.457L8.84 9.082zm3.456-3.457l2.523 2.523 2.944-2.943-2.523-2.523-2.944 2.943z" stroke="currentColor"
+      stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg" id="mail">
+    <path d="M17 2.6c0-.88-.72-1.6-1.6-1.6H2.6C1.72 1 1 1.72 1 2.6m16 0v9.6c0 .88-.72 1.6-1.6 1.6H2.6c-.88 0-1.6-.72-1.6-1.6V2.6m16 0L9 8.2 1 2.6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" id="phone">
+    <path d="M17 13.003v2.413a1.61 1.61 0 0 1-1.754 1.61 15.921 15.921 0 0 1-6.943-2.47 15.687 15.687 0 0 1-4.827-4.827 15.92 15.92 0 0 1-2.47-6.975A1.609 1.609 0 0 1 2.608 1h2.414A1.609 1.609 0 0 1 6.63 2.384c.102.772.29 1.53.563 2.26a1.609 1.609 0 0 1-.362 1.698L5.809 7.363a12.871 12.871 0 0 0 4.827 4.827l1.022-1.021a1.61 1.61 0 0 1 1.697-.362c.73.272 1.489.46 2.26.563A1.609 1.609 0 0 1 17 13.003z"
+      stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" id="print">
+    <path d="M4.2 6.6V1h9.6v5.6m-9.6 7.2H2.6A1.6 1.6 0 0 1 1 12.2v-4a1.6 1.6 0 0 1 1.6-1.6h12.8A1.6 1.6 0 0 1 17 8.2v4a1.6 1.6 0 0 1-1.6 1.6h-1.6m-9.6-3.2h9.6V17H4.2v-6.4z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" id="edit">
+    <path d="M8.157 2.687H2.59A1.59 1.59 0 0 0 1 4.277V15.41A1.59 1.59 0 0 0 2.59 17h11.133a1.59 1.59 0 0 0 1.59-1.59V9.843M14.12 1.494a1.687 1.687 0 0 1 2.386 2.386l-7.554 7.554-3.18.795.794-3.18 7.554-7.555z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+</svg>

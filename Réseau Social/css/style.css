@@ -1,0 +1,332 @@
+:root {
+    --dark: #000;
+    --colorborder: #DBDBDB;
+    --white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #F1F1F1;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.header {
+    background: var(--dark);
+    padding: 20px;
+    width: 100%;
+}
+
+.header img {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.header nav {
+    text-align: center;
+}
+
+.header nav a {
+    text-decoration: none;
+    color: rgba( 250, 250, 250, .67);
+    margin: 24px;
+}
+
+.header nav a:hover {
+    color: var(--white);
+}
+
+.main {
+    margin: auto;
+}
+
+.header-main {
+
+    height: 110px;
+}
+
+.header-main ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header-main a {
+    color: rgba(0, 0, 0, .67);
+    text-decoration: none;
+}
+
+.header-main a:hover {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.header-main ul li {
+    padding: 5px;
+    width: 180px;
+    height: 26px;
+}
+
+.header-main ul li:hover  {
+    list-style: none;
+    border: solid 1px var(--colorborder);
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+    background: var(--white);
+}
+
+.header-main ul li:nth-child(1):before {
+    content: "🏠";
+    margin-right: 20px;
+}
+
+.header-main ul li:nth-child(2):before {
+    content: "✉️";
+    margin-right: 20px;
+    width: 180px;
+    height: 26px;
+}
+
+.header-main ul li:nth-child(3):before {
+    content: "🗓️";
+    margin-right: 20px;
+    width: 180px;
+    height: 26px;
+}
+
+.header-main li:nth-child(4):before {
+    content: "🏘️";
+    margin-right: 20px;
+    width: 180px;
+    height: 26px;
+}
+
+.header-main li:nth-child(5):before {
+    content: "📨";
+    margin-right: 20px;
+    width: 180px;
+    height: 26px;
+}
+
+.main-body {
+    margin: 20px;
+}
+
+.main-profil {
+    border: solid 1px var(--colorborder);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: var(--white);
+}
+
+.main-profil:nth-child(3){
+    display: none;
+}
+
+.profil-header {
+    display: flex;
+    padding: 10px;
+    height: 86px;
+    align-items: center;
+}
+
+.image-p {
+    background-image: url("/img/matthew2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.profil-header div{
+    margin: 5px;
+    font-weight: bold;
+}
+
+.profil-header h2{
+    font-size: 18px;
+    margin: 0;
+}
+
+.profil-header p{
+    color: rgba( 0, 0, 0, .38);
+    font-size: 12px;
+    margin-top: 0;
+}
+
+
+.profil-body img {
+    width: 100%;
+}
+
+.profil-body p {
+    width: 100%;
+    padding: 5px;
+    color: rgba( 0, 0, 0, .60);
+}
+
+.profil-footer {
+    display: flex;
+    justify-content: space-between;
+    color: #BDBDBD;
+    font-size: 12px;
+    border-top: solid 1px var(--colorborder);
+}
+
+.profil-footer h3 {
+    margin: 10px;
+}
+
+.profil-footer h3:nth-child(1):before {
+    content: "🖒 ";
+}
+
+.profil-footer h3:nth-child(2):before  {
+    content: "🗨️ ";
+}
+
+.suggestion {
+    width: 366px;
+    height: 73px;
+    margin: auto;
+}
+
+.suggestion-fav {
+    display: none;
+}
+
+.suggestion h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.suggestion h4:after {
+   content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin-top: 4px;
+    background: var(--dark);
+}
+
+.suggestion-main {
+    display: flex;
+    margin: 20px 0;
+}
+
+.suggestion-main h5 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.suggestion-main p:nth-child(2) {
+    font-size: 14px;
+    color: rgba(0, 0, 0, .65);
+    margin: 5px;
+}
+
+.suggestion-main p:nth-child(3) {
+    font-size: 12px;
+    margin-top: 85px;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 1050px){
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 25px;
+        height: 64px;
+    }
+
+    .header nav a, .header img {
+        margin: 0 25px;
+    }
+
+    .main {
+        display: flex;
+    }
+
+    .header-main ul {
+        display: block;
+        margin: 22px 0 60px 30px ;
+    }
+
+    .image-p {
+        background-image: url("/img/matthew.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+    }
+
+    .main-profil {
+        width: 100%;
+    }
+
+    .main-profil:nth-child(3){
+        display: block;
+    }
+
+    .suggestion {
+        width: 100%;
+        max-width: 310px;
+        margin: 22px 60px 30px 60px ;
+    }
+
+    .suggestion-fav {
+        display: block;
+        border: solid 1px var(--colorborder);
+        border-radius: 5px;
+        background: var(--white);
+    }
+
+    .suggestion-fav-header {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+
+
+    .suggestion-fav-header div{
+        margin: 5px;
+        font-weight: bold;
+    }
+
+    .suggestion-fav-header h2{
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .suggestion-fav-header p {
+        width: 100%;
+        color: rgba( 0, 0, 0, .60);
+    }
+
+    .suggestion-fav-header p{
+        color: rgba( 0, 0, 0, .38);
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .suggestion-fav-body p {
+        width: 100%;
+        padding: 5px;
+        color: rgba( 0, 0, 0, .60);
+    }
+}
